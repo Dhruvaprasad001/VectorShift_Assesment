@@ -1,10 +1,10 @@
-import { PipelineToolbar } from './toolbar';
-import { PipelineUI } from './ui';
-import { SubmitButton } from './submit';
+import { PipelineToolbar } from './components/common/Toolbar';
+import { PipelineUI } from './components/PipelineUI';
+import { SubmitButton } from './components/common/SubmitButton';
 
 function App() {
   return (
-    <div>
+    <div className="space-y-4">
       <PipelineToolbar />
       <PipelineUI />
       <SubmitButton />
